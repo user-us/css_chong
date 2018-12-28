@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family:"PingFang SC Medium","Microsoft YaHei";text-align:center;padding:0; margin:0 auto;font-size:14px;color:#3d3d3d;line-height:30px; background:#fff;min-width: 980px;}
+*body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;font-family:"PingFang SC Medium","Microsoft YaHei";}
+body > div{text-align:left;margin-right:auto;margin-left:auto;}
+div,form,ul,ol,li,dl,dt,dd{margin:0 auto;padding:0;border:0;text-align:left; font-weight: normal;}
+img,a img,p,pre{border:0;margin:0;padding:0;}
+h1,h2,h3,h4{margin:0;padding:0;font-weight:normal;}
+ul,ol,li{list-style:none;text-align:left;}
+table,th,td,input,textarea,select,p{font-size:15px;border:0;outline:none;font-family:"PingFang SC Medium","Microsoft YaHei";}
+table,td,th{font-weight:normal;font-size:15px;font-family:"PingFang SC Medium","Microsoft YaHei";}
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;vertical-align:middle; border:none;font-family:"PingFang SC Medium","Microsoft YaHei";}
+img{vertical-align:middle;}
+pre{white-space:normal;}
+*, *:before, *:after { box-sizing: border-box; outline: none; }
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
+ border: none;
+}
+textarea { outline: none; border-radius: 0; -webkit-appearance: none; -moz-appearance: none; overflow: auto; resize: none; font: 100% tahoma, \5b8b\4f53, arial; }
+table { border-collapse: collapse; border-spacing: 0; }
+/* 默认链接颜色 */
+a{outline-style:none !important;color:#fff;text-decoration:none;}
+/*a:hover{color:#fff;text-decoration:none;}
+a:active{text-decoration: none;color: #fff}
+a:visited{text-decoration: none;color: #fff}
+a:link{text-decoration: none;color: #fff}*/
+/*清除链接虚框*/
+a,area{blr:expression(this.onFocus=this.blur());}for IE
+:focus{-moz-outline-style:none;}for Firefox
+/* 下划线 */
+.unline,.unline a{text-decoration:underline}
+.nounline,.nounline a,.list12 .nounline{text-decoration:none;}
+/* 通用属性 */
+.left,.fl{float:left;}
+.right,.fr{float:right;}
+.overflow{overflow:auto; overflow:hidden;}
+.clearfix:after {display:block;clear:both;height: 0;}
+.clearfix {zoom:1;}
+.center{margin:0 auto;}
+.clear{clear:both;font-size:1px;width:1px;visibility:hidden;margin-top:0px!important;*margin-top:-1px;line-height:0}/*ie and firefox1.5 updata */
+.none{display:none;}
+.both{clear:both;}
+textarea {-webkit-appearance: none;}
+.button{ border-radius:0;}
